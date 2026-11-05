@@ -3,6 +3,10 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
+kotlin {
+    jvmToolchain(17)
+}
+
 android {
     namespace = "com.mwsguy.app"
     compileSdk = 36
